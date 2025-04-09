@@ -26,6 +26,8 @@ SECRET_KEY = "django-insecure-@+x=l@$4a+fazx2-4ye5@lt@lc4)$n08f@l0^&oqw+2&r_e*s7
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS += ['solid-waddle-5rv595p59vfp69v.github.dev', 'localhost']
+ALLOWED_HOSTS += ['solid-waddle-5rv595p59vfp69v-8000.app.github.dev', 'localhost']
 
 
 # Application definition
