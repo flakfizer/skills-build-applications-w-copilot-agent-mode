@@ -86,6 +86,7 @@ DATABASES = {
 }
 
 DATABASES["default"].update({"HOST": "localhost", "PORT": 27017})
+DATABASES["default"].update({"ENGINE": "djongo"})
 
 
 # Password validation
