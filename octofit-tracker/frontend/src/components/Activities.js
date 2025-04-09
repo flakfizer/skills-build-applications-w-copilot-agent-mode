@@ -4,12 +4,11 @@ function Activities() {
   const [activities, setActivities] = useState([]);
 
   useEffect(() => {
-    fetch('https://solid-waddle-5rv595p59vfp69v-8000.app.github.dev/api/activity/')
+    fetch('https://olid-waddle-5rv595p59vfp69v-8000.app.github.dev/api/activity/')
       .then(response => response.json())
       .then(data => setActivities(data))
       .catch(error => console.error('Error fetching activities:', error));
   }, []);
-
 
   return (
     <div>
