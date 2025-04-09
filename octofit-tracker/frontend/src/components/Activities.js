@@ -9,7 +9,8 @@ function Activities() {
       .then(data => setActivities(data))
       .catch(error => console.error('Error fetching activities:', error));
   }, []);
- 
+
+
   return (
     <div>
       <h1 className="display-5">Activities</h1>
